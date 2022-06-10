@@ -1,0 +1,14 @@
+[package]
+name = "sparse_int_map"
+version = "0.1.0"
+edition = "2021"
+
+[[bench]]
+name = "vs_vec_option"
+harness = false
+
+[dependencies]
+vec_map = "0.8.2"
+
+[dev-dependencies]
+criterion = "0.3"
